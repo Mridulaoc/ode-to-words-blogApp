@@ -48,11 +48,11 @@ function Home() {
 
     if (!userData) {
         return (
-            <div className="w-full py-8 mt-4 text-center h-100">
+            <div className="w-full py-8 mt-4 text-center">
                 <Container>
                     <div className="flex flex-wrap">
                         <div className="p-2 w-full">
-                            <p className="text-xl text-white w-3/4 mx-auto leading-loose"> 
+                            <p className=" text-xs md:text-xl text-white w-3/4 mx-auto leading-loose"> 
                             Welcome to <span className=' font-bold text-yellow-500'>Ode To Words</span>,
                              where the magic of words meets the charm of  storytelling.
                              Dive into a world of creativity and self-discovery as we celebrate
