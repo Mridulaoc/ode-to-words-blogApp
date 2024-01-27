@@ -48,7 +48,7 @@ function Home() {
 
     if (!userData) {
         return (
-            <div className="w-full py-8 mt-4 text-center h-auto md:h-100">
+            <div className="w-full py-8 mt-4 flex justify-center items-center md:h-100">
                 <Container>
                     <div className="flex flex-wrap">
                         <div className="p-2 w-full">
