@@ -58,10 +58,10 @@ export class AuthService {
         }
     }
 
-    async createGoogleAuthentication(){
+    createGoogleAuthentication(){
 
         try {
-            return await this.account.createOAuth2Session('google','https://ode-to-words.vercel.app', 'https://ode-to-words.vercel.app/signUp')
+            return this.account.createOAuth2Session('google','https://ode-to-words.vercel.app', 'https://ode-to-words.vercel.app/signUp')
             
         } catch (error) {
             console.log(error)
