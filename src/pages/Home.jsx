@@ -81,7 +81,7 @@ function Home() {
         { posts.length===0 ? 
          (<Container>
             <div className=' h-100'>
-                <h2 className=' m-10 text-4xl my-5' >Welcome <span className=' capitalize'>{userData.name}</span></h2>
+                <h2 className=' m-10 text-4xl my-5' >Welcome <span className=' capitalize'>{userData.name||userData.userdata.name}</span></h2>
                 <p>You have not added any posts yet. To read posts go to <Link to={'/all-posts'}><span className=' font-bold'>All Posts</span></Link>
                 </p>
             </div>           
